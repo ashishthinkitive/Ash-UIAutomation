@@ -28,4 +28,4 @@ jobs:
         run: npx playwright install chromium
 
       - name: Run Playwright tests on Chrome
-        run: npx playwright test tests/login.test.ts --project=chromium
+        run: npx playwright test tests/login.test.ts --project=chromium --config=playwright.config.ts
